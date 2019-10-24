@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include amanaat *.css
+recursive-include amanaat *.csv
+recursive-include amanaat *.html
+recursive-include amanaat *.ico
+recursive-include amanaat *.js
+recursive-include amanaat *.json
+recursive-include amanaat *.md
+recursive-include amanaat *.png
+recursive-include amanaat *.py
+recursive-include amanaat *.svg
+recursive-include amanaat *.txt
+recursive-exclude amanaat *.pyc
